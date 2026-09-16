@@ -1,0 +1,22 @@
+INVENTORY_AVAILABLE_STATUS_VALUE = "available"
+INVENTORY_SOLD_STATUS_VALUE = "sold"
+
+LOW_STOCK_THRESHOLD = 10
+
+DEFAULT_LOOKBACK_DAYS = 30
+
+ALLOWED_GRANULARITIES = ("day", "week", "month")
+DEFAULT_GRANULARITY = "day"
+
+DATE_PRESETS_TO_DAYS = {
+    "last_7_days": 7,
+    "last_30_days": 30,
+    "last_90_days": 90,
+    "last_365_days": 365,
+}
+
+LIFETIME_PRESET = "lifetime"
+
+ALL_PRESETS = (*DATE_PRESETS_TO_DAYS.keys(), LIFETIME_PRESET)
+
+WS_REFRESH_INTERVAL_SECONDS = 15

@@ -1,0 +1,275 @@
+{
+  "language": "ar",
+  "columns": [
+    {
+      "our_schema": "product.product_id",
+      "user_column": "products.id",
+      "user_label": "Product ID"
+    },
+    {
+      "our_schema": "product.product_name",
+      "user_column": "products.name",
+      "user_label": "Item Name"
+    },
+    {
+      "our_schema": "product.category_name",
+      "user_column": "products.category",
+      "user_label": "Category"
+    },
+    {
+      "our_schema": "product.cost",
+      "user_column": "products.unit_cost",
+      "user_label": "Unit Cost"
+    },
+    {
+      "our_schema": "product.retail_price",
+      "user_column": "products.price",
+      "user_label": "Sale Price"
+    },
+    {
+      "our_schema": "product.lead_time",
+      "user_column": "products.lead_time_days",
+      "user_label": "Lead Time"
+    },
+    {
+      "our_schema": "product.discontinued",
+      "user_column": "products.is_discontinued",
+      "user_label": "Discontinued?"
+    },
+    {
+      "our_schema": "category.category_name",
+      "user_column": "categories.name",
+      "user_label": "Category"
+    },
+    {
+      "our_schema": "supplier.supplier_id",
+      "user_column": "suppliers.id",
+      "user_label": "Supplier ID"
+    },
+    {
+      "our_schema": "supplier.account_balance",
+      "user_column": "suppliers.balance",
+      "user_label": "Account Balance"
+    },
+    {
+      "our_schema": "supplier.country",
+      "user_column": "suppliers.country",
+      "user_label": "Country"
+    },
+    {
+      "our_schema": "employee.employee_id",
+      "user_column": "employees.id",
+      "user_label": "Employee ID"
+    },
+    {
+      "our_schema": "employee.full_name",
+      "user_column": "employees.name",
+      "user_label": "Employee Name"
+    },
+    {
+      "our_schema": "employee.hire_date",
+      "user_column": "employees.hired_on",
+      "user_label": "Hire Date"
+    },
+    {
+      "our_schema": "employee.termination_date",
+      "user_column": "employees.terminated_on",
+      "user_label": "Termination Date"
+    },
+    {
+      "our_schema": "order.order_id",
+      "user_column": "orders.id",
+      "user_label": "Order #"
+    },
+    {
+      "our_schema": "order.order_date",
+      "user_column": "orders.order_dt",
+      "user_label": "Order Date"
+    },
+    {
+      "our_schema": "order.order_status",
+      "user_column": "orders.status",
+      "user_label": "Order Status"
+    },
+    {
+      "our_schema": "order.employee_id",
+      "user_column": "orders.handled_by",
+      "user_label": "Handled By"
+    },
+    {
+      "our_schema": "order_item.order_item_id",
+      "user_column": "order_items.id",
+      "user_label": "Line Item ID"
+    },
+    {
+      "our_schema": "order_item.order_id",
+      "user_column": "order_items.order_id",
+      "user_label": "Order #"
+    },
+    {
+      "our_schema": "order_item.product_id",
+      "user_column": "order_items.product_id",
+      "user_label": "Product ID"
+    },
+    {
+      "our_schema": "order_item.supplier_id",
+      "user_column": "order_items.supplier_id",
+      "user_label": "Supplier ID"
+    },
+    {
+      "our_schema": "order_item.quantity",
+      "user_column": "order_items.qty",
+      "user_label": "Quantity"
+    },
+    {
+      "our_schema": "order_item.extended_price",
+      "user_column": "order_items.line_total",
+      "user_label": "Line Total"
+    },
+    {
+      "our_schema": "order_item.discount",
+      "user_column": "order_items.discount_amt",
+      "user_label": "Discount"
+    },
+    {
+      "our_schema": "payment.order_id",
+      "user_column": "payments.order_id",
+      "user_label": "Order #"
+    },
+    {
+      "our_schema": "payment.payment_type",
+      "user_column": "payments.method",
+      "user_label": "Payment Method"
+    },
+    {
+      "our_schema": "payment.payment_value",
+      "user_column": "payments.amount",
+      "user_label": "Amount Paid"
+    },
+    {
+      "our_schema": "inventory_item.inventory_item_id",
+      "user_column": "inventory_items.id",
+      "user_label": "Inventory ID"
+    },
+    {
+      "our_schema": "inventory_item.product_id",
+      "user_column": "inventory_items.product_id",
+      "user_label": "Product ID"
+    },
+    {
+      "our_schema": "inventory_item.supplier_id",
+      "user_column": "inventory_items.supplier_id",
+      "user_label": "Supplier ID"
+    },
+    {
+      "our_schema": "inventory_item.distribution_center_id",
+      "user_column": "inventory_items.dc_id",
+      "user_label": "Warehouse ID"
+    },
+    {
+      "our_schema": "inventory_item.status",
+      "user_column": "inventory_items.state",
+      "user_label": "Item Status"
+    },
+    {
+      "our_schema": "distribution_center.distribution_center_id",
+      "user_column": "distribution_centers.id",
+      "user_label": "Warehouse ID"
+    },
+    {
+      "our_schema": "distribution_center.distribution_center_name",
+      "user_column": "distribution_centers.name",
+      "user_label": "Warehouse Name"
+    },
+    {
+      "our_schema": "distribution_center.rental_cost",
+      "user_column": "distribution_centers.rent",
+      "user_label": "Monthly Rent"
+    },
+    {
+      "our_schema": "stock_movement.product_id",
+      "user_column": "stock_movements.product_id",
+      "user_label": "Product ID"
+    },
+    {
+      "our_schema": "stock_movement.user_id",
+      "user_column": "stock_movements.employee_id",
+      "user_label": "Employee ID"
+    },
+    {
+      "our_schema": "stock_movement.type",
+      "user_column": "stock_movements.movement_type",
+      "user_label": "Movement Type"
+    },
+    {
+      "our_schema": "stock_movement.quantity",
+      "user_column": "stock_movements.qty_delta",
+      "user_label": "Quantity Change"
+    },
+    {
+      "our_schema": "stock_movement.created_at",
+      "user_column": "stock_movements.logged_at",
+      "user_label": "Logged At"
+    },
+    {
+      "our_schema": "purchase_order.id",
+      "user_column": "purchase_orders.id",
+      "user_label": "PO Number"
+    },
+    {
+      "our_schema": "purchase_order.supplier_id",
+      "user_column": "purchase_orders.supplier_id",
+      "user_label": "Supplier ID"
+    },
+    {
+      "our_schema": "purchase_order.user_id",
+      "user_column": "purchase_orders.created_by",
+      "user_label": "Created By"
+    },
+    {
+      "our_schema": "purchase_order.status",
+      "user_column": "purchase_orders.status",
+      "user_label": "PO Status"
+    },
+    {
+      "our_schema": "purchase_order.order_date",
+      "user_column": "purchase_orders.ordered_on",
+      "user_label": "Order Date"
+    },
+    {
+      "our_schema": "purchase_order.expected_delivery_date",
+      "user_column": "purchase_orders.eta",
+      "user_label": "Expected Delivery"
+    },
+    {
+      "our_schema": "purchase_order.received_at",
+      "user_column": "purchase_orders.received_on",
+      "user_label": "Received On"
+    },
+    {
+      "our_schema": "purchase_order.total_amount",
+      "user_column": "purchase_orders.grand_total",
+      "user_label": "Total Amount"
+    },
+    {
+      "our_schema": "purchase_order_item.purchase_order_id",
+      "user_column": "purchase_order_items.po_id",
+      "user_label": "PO Number"
+    },
+    {
+      "our_schema": "purchase_order_item.product_id",
+      "user_column": "purchase_order_items.product_id",
+      "user_label": "Product ID"
+    },
+    {
+      "our_schema": "purchase_order_item.quantity_ordered",
+      "user_column": "purchase_order_items.qty_ordered",
+      "user_label": "Qty Ordered"
+    },
+    {
+      "our_schema": "purchase_order_item.quantity_received",
+      "user_column": "purchase_order_items.qty_received",
+      "user_label": "Qty Received"
+    }
+  ]
+}

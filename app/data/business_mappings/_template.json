@@ -1,0 +1,218 @@
+[
+  {
+    "our_schema": "product.product_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "product.product_name",
+    "user_column": null
+  },
+  {
+    "our_schema": "product.category_name",
+    "user_column": null
+  },
+  {
+    "our_schema": "product.cost",
+    "user_column": null
+  },
+  {
+    "our_schema": "product.retail_price",
+    "user_column": null
+  },
+  {
+    "our_schema": "product.lead_time",
+    "user_column": null
+  },
+  {
+    "our_schema": "product.discontinued",
+    "user_column": null
+  },
+  {
+    "our_schema": "category.category_name",
+    "user_column": null
+  },
+  {
+    "our_schema": "supplier.supplier_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "supplier.account_balance",
+    "user_column": null
+  },
+  {
+    "our_schema": "supplier.country",
+    "user_column": null
+  },
+  {
+    "our_schema": "employee.employee_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "employee.full_name",
+    "user_column": null
+  },
+  {
+    "our_schema": "employee.hire_date",
+    "user_column": null
+  },
+  {
+    "our_schema": "employee.termination_date",
+    "user_column": null
+  },
+  {
+    "our_schema": "order.order_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "order.order_date",
+    "user_column": null
+  },
+  {
+    "our_schema": "order.order_status",
+    "user_column": null
+  },
+  {
+    "our_schema": "order.employee_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "order_item.order_item_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "order_item.order_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "order_item.product_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "order_item.supplier_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "order_item.quantity",
+    "user_column": null
+  },
+  {
+    "our_schema": "order_item.extended_price",
+    "user_column": null
+  },
+  {
+    "our_schema": "order_item.discount",
+    "user_column": null
+  },
+  {
+    "our_schema": "payment.order_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "payment.payment_type",
+    "user_column": null
+  },
+  {
+    "our_schema": "payment.payment_value",
+    "user_column": null
+  },
+  {
+    "our_schema": "inventory_item.inventory_item_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "inventory_item.product_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "inventory_item.supplier_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "inventory_item.distribution_center_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "inventory_item.status",
+    "user_column": null
+  },
+  {
+    "our_schema": "distribution_center.distribution_center_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "distribution_center.distribution_center_name",
+    "user_column": null
+  },
+  {
+    "our_schema": "distribution_center.rental_cost",
+    "user_column": null
+  },
+  {
+    "our_schema": "stock_movement.product_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "stock_movement.user_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "stock_movement.type",
+    "user_column": null
+  },
+  {
+    "our_schema": "stock_movement.quantity",
+    "user_column": null
+  },
+  {
+    "our_schema": "stock_movement.created_at",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order.id",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order.supplier_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order.user_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order.status",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order.order_date",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order.expected_delivery_date",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order.received_at",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order.total_amount",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order_item.purchase_order_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order_item.product_id",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order_item.quantity_ordered",
+    "user_column": null
+  },
+  {
+    "our_schema": "purchase_order_item.quantity_received",
+    "user_column": null
+  }
+]
